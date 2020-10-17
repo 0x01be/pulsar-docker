@@ -9,5 +9,5 @@ RUN git clone --depth 1 --branch ${PULSAR_REVISION} https://github.com/apache/pu
 
 WORKDIR /pulsar
 
-RUN mvn nstall -DskipTests
+RUN mvn install -DskipTests
 
